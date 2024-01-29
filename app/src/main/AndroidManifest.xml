@@ -13,19 +13,19 @@
         android:theme="@style/Theme.CalculadoraDeSueldo"
         tools:targetApi="31">
         <activity
-            android:name=".Recibo"
+            android:name=".view.Recibo"
             android:exported="false"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".Turnos"
+            android:name=".view.Turnos"
             android:exported="false"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".Basicos"
+            android:name=".view.Basicos"
             android:exported="false"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".MainActivity"
+            android:name=".view.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.CalculadoraDeSueldo">
