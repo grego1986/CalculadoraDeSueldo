@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/app_name"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/menu"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="109dp"
+            android:layout_height="97dp"
+            android:src="@drawable/editar_basico"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="10dp"
+            android:contentDescription="@string/modificar_basico"/>
+
+        <TextView
+            android:id="@+id/lblBasico"
+            android:layout_width="wrap_content"
+            android:layout_height="97dp"
+            android:text="@string/modificar_basico"
+            android:gravity="center"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="109dp"
+        android:layout_height="97dp"
+        android:src="@drawable/turno_trabajo"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="10dp"
+        android:contentDescription="@string/turnos"/>
+
+        <TextView
+            android:id="@+id/lblTurnos"
+            android:layout_width="wrap_content"
+            android:layout_height="97dp"
+            android:text="@string/turnos"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="109dp"
+            android:layout_height="97dp"
+            android:src="@drawable/recibo_sueldo"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="10dp"
+            android:contentDescription="@string/recibo"/>
+
+        <TextView
+            android:id="@+id/lblRecibo"
+            android:layout_width="wrap_content"
+            android:layout_height="97dp"
+            android:text="@string/recibo"
+            android:gravity="center_vertical"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

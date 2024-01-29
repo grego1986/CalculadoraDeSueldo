@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/modificar_basico"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="12sp"
+            android:text="@string/basico"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"/>
+
+        <EditText
+            android:id="@+id/txtBasico"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:textSize="12sp"
+            android:hint="@string/ingresar"
+            android:inputType="numberDecimal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="12sp"
+            android:text="@string/fondo"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"/>
+
+        <EditText
+            android:id="@+id/txtManejoFondo"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:textSize="12sp"
+            android:hint="@string/ingresar"
+            android:inputType="numberDecimal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="12sp"
+            android:text="@string/asistencia"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"/>
+
+        <EditText
+            android:id="@+id/txtAsistenciaPerfecta"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text=""
+            android:textSize="12sp"
+            android:hint="@string/ingresar"
+            android:inputType="numberDecimal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="12sp"
+            android:text="@string/nRemunerativo"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"/>
+
+        <EditText
+            android:id="@+id/txtNoRemunerativo"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:textSize="12sp"
+            android:text=""
+            android:hint="@string/ingresar"
+            android:inputType="numberDecimal"/>
+
+    </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/btnAgregar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/agregar"
+            android:background="?android:attr/selectableItemBackgroundBorderless"/>
+
+    <Button
+        android:id="@+id/btnModificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/modificar"
+        android:background="?android:attr/selectableItemBackgroundBorderless"/>
+
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/volver"
+        android:background="?android:attr/selectableItemBackgroundBorderless"/>
+
+</LinearLayout>
